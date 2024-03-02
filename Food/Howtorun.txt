@@ -1,0 +1,10 @@
+#for windows
+javac -cp ".;sqlite-jdbc-3.34.0.jar;logback-classic-1.4.9.jar;logback-core-1.4.9.jar" FoodOrderingSystem.java
+java -cp ".;sqlite-jdbc-3.34.0.jar;logback-classic-1.4.9.jar;logback-core-1.4.9.jar" FoodOrderingSystem
+
+#for linux
+javac -cp ".:sqlite-jdbc-3.34.0.jar;logback-classic-1.4.9.jar;logback-core-1.4.9.jar" FoodOrderingSystem.java
+java -cp ".:sqlite-jdbc-3.34.0.jar;logback-classic-1.4.9.jar;logback-core-1.4.9.jar" FoodOrderingSystem
+
+#run a database
+& "C:\sqlite\sqlite3.exe" ".\users.db"
